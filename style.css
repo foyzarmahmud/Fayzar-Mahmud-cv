@@ -1,0 +1,158 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color:#e4f9f5 ;
+    margin: 0 auto ;
+    padding: 20px;
+}
+/* header{
+
+} */
+.profile-image{
+    width: 100px;
+    height: 110px;
+    border: 5px solid #86f0dc;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding:30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: .3s;
+}
+.header-contact a:hover{
+    text-decoration:underline;
+    color: tomato;
+}
+
+hr{
+    border: 3px solid black;
+    margin:20px auto;
+    margin-bottom: none;
+    width: 100%;
+
+}
+.div-clear{
+    clear: both;
+}
+
+/* personal information starts here*/
+
+/* #personal-information{
+
+} */
+.personal-content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.right-div p{
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: bold;
+}
+.right-div li{
+    font-weight: bold;
+}
+.common-hr{
+    border: solid 1px black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/* personal information end here */
+
+/* education section starts here */
+.education-template-left{
+    width: 45%;
+    float: left;
+}
+.education-template-left p{
+    padding-left:0;
+    font-weight: bold;
+}
+.education-template-right{
+    width: 55%;
+    float: right;
+}
+.education-template-right p{
+    padding-left:0;
+    font-weight: bold;
+}
+/* education ends here */
+
+/* footer start here */
+
+.bottom-container{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.bottom-container a.facebook{
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.bottom-container a.facebook:hover{
+    color: #3b5998;
+    font-weight: bold;
+}
+.bottom-container a.youtube{
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.bottom-container a.youtube:hover{
+    color: #FF0000;
+}
+.bottom-container a.web{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.bottom-container a.web:hover{
+    color: #40868b;
+}
+
+.bottom-container p{
+    color: white;
+    margin: 14px;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
